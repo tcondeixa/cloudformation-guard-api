@@ -1,0 +1,11 @@
+{
+  "manifests": [
+    {
+      "name": "my-manifest-1",
+      "rules_names": [
+        "test1.guard"
+      ],
+      "data": "Metadata:\n  Tags:\n    application: my-app\n    component: my-component"
+    }
+  ]
+}

@@ -1,2 +1,3 @@
 # cloudformation-guard-api
-AWS CloudFormation Guard
+
+AWS CloudFormation Guard API

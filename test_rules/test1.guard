@@ -1,0 +1,10 @@
+rule ensure_application_tag {
+    Metadata.Tags.application exists
+    <<
+    {
+        "Id": "TAG-APPLICATION",
+        "Message": "Ensure CloudFormation stacks have an application tag",
+        "ReferenceURL": "url"
+    }
+    >>
+}

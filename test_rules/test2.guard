@@ -1,0 +1,10 @@
+rule ensure_component_tag {
+    Metadata.Tags.component exists
+    <<
+    {
+        "Id": "TAG-COMPONENT",
+        "Message": "Ensure CloudFormation stacks have an component tag",
+        "ReferenceURL": "url"
+    }
+    >>
+}
